@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 80px;
+    padding: 0 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .header_links{
+    font-family: "Karla", sans-serif;
+    display: flex;
+    gap: 30px;
+}
+header h1{
+    font-family: "Karla", sans-serif;
+}
+header .header_links a{
+    color: #1D1F2E;
+}
+.banner{
+    background-image: url(./images/Rectangle.png);
+    text-align: center;
+    width: 100%;
+    height: 530px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 30px;
+}
+.banner h6{
+    font-family: "Karla", sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    padding-top: 159px;   
+}
+.banner h1{
+    font-family: "Karla", sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 60px;
+    padding-top: 10px;
+}
+.banner p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: "Karla", sans-serif;
+    line-height: 30px;
+    font-size: 17px;
+    padding-top: 10px;
+}
+.banner button{
+    font-family: "Karla", sans-serif;
+    width: 231px;
+    height: 33px;
+    border: 0;
+    margin-top: 38px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+.box{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-right: 200px;
+}
+.box p{
+    font-family: "Karla", sans-serif;
+    padding-top: 120px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    align-items: center;
+    padding-left: 181px;
+}
+.boxx{
+   width: 100%;
+   text-align: center;
+   
+}
+
+.boxx p{
+    font-family: "Karla", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    
+    margin-top: 16px;
+}
+.boxx button{
+    background-color: transparent;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    border: 2px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #A25F4B;
+    margin-top: 21px;
+}
+.bokx{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.bokx a{
+    font-family: "Karla", sans-serif;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 18px;
+   letter-spacing: 2px;
+   color: #1D1F2E;  
+}
+.banner2{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: 100px;
+}
+.banner2 h6{
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    color: #1D1F2E; 
+    padding-top: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 120px;
+
+}
+.text P{
+ text-align: center;
+ padding-right: 450px;
+ margin-top: 5px;
+}
+.banner2 p strong{
+    font-family: "Karla", sans-serif;
+    color: #A25F4B;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 10px;   
+}
+.banner2 p{
+    text-align: center;
+    font-family: "Karla", sans-serif;
+    padding-top: 8px;
+    color: #1D1F2E66;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.banner3{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.banner3 a{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #1D1F2E;  
+}
+.banner4{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    gap: 8.61px;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+}
+.banner4 h6{
+    margin-top: 35px;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1D1F2E;
+}
+.banner4 p strong{
+  font-family: "Karla", sans-serif;
+  color: #A25F4B;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  padding: 0 10px;
+}
+.banner4 p{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1D1F2E66;
+}
+.banner5{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    gap: 8.61px;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.banner5 h6{
+    margin-top: 35px;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1D1F2E;
+}
+.banner5 p{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1D1F2EB2;
+}
+.images2{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    gap: 8.61px;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.images2 h6{
+    margin-top: 35px;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1D1F2E;
+}
+.images2 p{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1D1F2EB2;
+}
+.banner6{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.banner6 a{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #1D1F2E;  
+}
+.images4{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    gap: 8.61px;
+    justify-content: center;
+    margin-top: 100px;
+    padding-left: 160px;
+    
+    padding-right: 250px;
+}
+.images4 h5{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #1D1F2E;
+    padding-left: 80px;
+    letter-spacing: 2px;
+    
+}
+.images4 h1{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    color: #1D1F2E;
+    padding-left: 80px;
+}
+.images4 p{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1D1F2EB2;
+    padding-left: 80px;
+}
+.images4 button{
+    margin-left: 80px;
+    width: 173px;
+    height: 35px;
+    background-color: #1D1F2E;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.images4 img{
+  display: flex;
+  padding-left: 15px;
+}
+.imagess{
+    width: 100%;
+    height: 340px;
+    margin-top: 130px;
+}
+.texxtt{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.texxtt a{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #1D1F2E;  
+}
+.images9{
+  width: 100%;
+  display: flex;
+  padding-left: 15px;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 20px;
+}
+.images9 h4{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1D1F2E;
+    margin-top: 25.9px; 
+}
+.images9 p{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1D1F2EB2;
+    margin-top: 14px; 
+}
+.images9  h6{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    color: #1D1F2EB2;
+    margin-top: 14px; 
+}
+.imagess2{
+   background-image: url(./images/33.png);
+   width: 100%;
+   height: 327px;
+   padding: 0 20px;
+   margin-top: 108px;
+   text-align: center;
+   padding-top: 79.96px;
+   justify-content: space-between;
+}
+.imagess2 h5{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+.imagess2 h1{
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    padding-top: 15.04px;
+    color: #FFFFFF;
+}
+.imagess2 input{
+    margin-top: 24.96px;
+    background-color: transparent;
+    width: 350px;
+    height: 54px;
+    color: #ffffff;
+    border: 1;
+    border-color: #2F303E;
+    padding-left: 20px;
+}
+.imagess2 button{
+    background-color: #ffffff;
+    font-family: "Karla", sans-serif;
+    width: 129px;
+    height: 54px;
+    border: 0;
+    margin-left: 10px;
+
+}
